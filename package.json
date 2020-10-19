@@ -1,0 +1,19 @@
+{
+  "name": "functional-programming",
+  "version": "1.0.0",
+  "description": "Repo for tech-track Dataviz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SjorsWijsman/functional-programming.git"
+  },
+  "author": "Sjors Wijsman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SjorsWijsman/functional-programming/issues"
+  },
+  "homepage": "https://github.com/SjorsWijsman/functional-programming#readme"
+}
