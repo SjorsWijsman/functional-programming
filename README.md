@@ -8,6 +8,7 @@
 - [Sources](#sources)
 
 ## Description
+Repository for HvA CMD course Functional Programming.
 
 ## Features
 
