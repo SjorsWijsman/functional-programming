@@ -93,6 +93,7 @@ function maakValideKeukenNaam(entry) {
   return newEntry
 }
 
+const italiaanseKeukens = keukenData.filter(entry => entry.includes("italiaans")).length
 
 
 /*
@@ -156,8 +157,6 @@ function valideerOogKleur(oogKleur) {
   }
 }
 
-console.log(oogKleurData);
-console.log(validatedOogKleurData);
 
 
 /*
