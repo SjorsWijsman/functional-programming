@@ -1,5 +1,4 @@
 # functional-programming
-
 - [Description](#description)
 - [Features](#features)
 - [Dataset](#dataset)
@@ -8,7 +7,10 @@
 - [Sources](#sources)
 
 ## Description
-Repository for HvA CMD course Functional Programming.
+Repo voor de HvA CMD course Functional Programming. Het einddoel van dit project is om een visualisatie te creëeren die gebruikt kan worden door de Volkskrant voor een nieuwsbericht.
+
+De deelvraag die ik heb onderzocht is:
+"Welke verbindingen zijn er tussen criminaliteit en de auto's die daarbij worden aangehouden?"
 
 ## Features
 
