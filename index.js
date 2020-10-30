@@ -1,25 +1,20 @@
-const fetch = require('node-fetch');
+const fetchApi = require("./fetchApi.js");
+const dataTransform = require("./dataTransform.js");
 
-/*
-    Fetch from Online API
-*/
-// Available APIs
-const apis = {
-  Gekentekende_voertuigen: "http://opendata.rdw.nl/resource/m9d7-ebf2.json",
-}
+fetchApi("gekentekende_voertuigen").then(res => {
+  // Check if response gave an error
+  if (res.FetchError) {
+    console.error(res);
+  }
+  // Else, go do stuff with the data
+  else {
+    // res = dataTransform.getColumn(res, "kenteken");
+    // res = dataTransform.getColumns(res, ["kenteken", "eerste_kleur"]);
+    // keys = dataTransform.getKeys(res);
+    displayData(res);
+  }
+});
 
-// Fetch from API
-function fetchApi(api) {
-  return fetch(apis[api])
-    .then(res => res.json())
-    .catch(err => { return err })
-}
-
-// // Fetch "Gekentekende_voertuigen dataset"
-// fetchApi("Gekentekende_voertuigen").then(res => {
-//   if (!res.FetchError) {
-//     console.log(res)
-//   } else {
-//     console.error(res);
-//   }
-// });
+function displayData(res) {
+  console.log(res);
+};
