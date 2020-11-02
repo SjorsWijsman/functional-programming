@@ -6,18 +6,10 @@
 - [Deploy](#deploy)
 - [Sources](#sources)
 
-## Description
+## Beschrijving
 Repo voor de HvA CMD course Functional Programming. Het einddoel van dit project is om een visualisatie te creëeren die gebruikt kan worden door de Volkskrant voor een nieuwsbericht.
 
 De deelvraag die ik heb onderzocht is:
-"Welke verbindingen zijn er tussen criminaliteit en de auto's die daarbij worden aangehouden?"
+"Hoe kan je ervoor zorgen dat je auto niet gestolen wordt?"
 
-## Features
-
-## Dataset
-
-## Install
-
-## Deploy
-
-## Sources
+## Gebruikte Data

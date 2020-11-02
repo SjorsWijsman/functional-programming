@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 /*
     Fetch from api endpoint
 */
-module.exports = function fetchApi(endPoint) {
+module.exports = function(endPoint) {
   // Available endpoints
   const endPoints = {
     gekentekende_voertuigen: "http://opendata.rdw.nl/resource/m9d7-ebf2.json",
